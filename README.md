@@ -1,4 +1,6 @@
-# SubjectExample
+# I Study subjects and BehaviorSubject
+
+### I studied the `Subjects and BehaviorSubjects`. 02/08/2021
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
