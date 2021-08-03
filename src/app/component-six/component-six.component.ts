@@ -11,13 +11,13 @@ export class ComponentSixComponent {
   Component1Data: string = '';
 
   constructor(private DataSharing: DataSharingServiceService) {
-    this.DataSharing.SharingData.subscribe((res: string) => {
+    this.DataSharing.sharingDataBehaviorX$.subscribe((res: string) => {
       this.Component1Data = res;
     })
   }
 
   onSubmit(data) {
-    this.DataSharing.SharingData.next(data.value);
+    this.DataSharing.sharingDataBehavior.next(data.value);
   }
 
 }
